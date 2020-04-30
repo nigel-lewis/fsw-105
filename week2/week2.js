@@ -5,3 +5,7 @@ console.log("is the legnth")
 } else if(cat = dog){
     console.log("not the same")
 }
+var person = {
+    name: "bobby",
+    age: 12
+}
