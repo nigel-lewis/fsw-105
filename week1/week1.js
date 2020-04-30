@@ -1,21 +1,16 @@
-var str="5"
-var number=5
-var boolean=true
-function money() {
-    
+function sum (x){
+    return x + x
 }
-var person={
-    groceryCart:["milk","juice","meat"],
-    firstName:"H",
-    age:5,
-    isAlone:false,
-    fullName:function (firstName) {console.log()
-    
-    }
+console.log(sum(10))
+var shopper = {
+     str:"items",
+    number:5,
+     boolean:true,
+     origin:function(){return "thisisagrocerycart"}
 }
-var array=[]
-console.log(person)
-if (str>number) {console.log(str)
-} else if (number>str) {console.log(number)
-} else {console.log(str+number)
-}
+console.log(shopper.origin())
+var array=["milk", "juice", "food"]
+console.log(shopper)
+if (str>number){console.log(str)}
+else if (number>str) {console.log(number)}
+else {console.log(str+number)}
